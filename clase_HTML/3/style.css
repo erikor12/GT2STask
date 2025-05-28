@@ -1,0 +1,19 @@
+.rojo {
+    color: #ff0000;
+}
+
+.azul {
+    color: #0000ff;
+}
+
+.centrado {
+    text-align: center;
+}
+
+.negrita {
+    font-weight: bold;
+}
+
+.amarillo {
+    background-color: #ffff00;
+}
