@@ -1,9 +1,9 @@
 .rojo {
-    color: #ff0000;
+    color: red;
 }
 
 .azul {
-    color: #0000ff;
+    color: blue;
 }
 
 .centrado {
@@ -15,5 +15,5 @@
 }
 
 .amarillo {
-    background-color: #ffff00;
+    background-color: yellow;
 }
