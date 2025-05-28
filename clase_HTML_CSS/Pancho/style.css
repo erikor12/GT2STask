@@ -1,0 +1,33 @@
+* {
+    margin: 10;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#up {
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom: rgb(139, 109, 53) 5px solid;
+}
+
+#mid {
+    margin: auto;
+    width: 300px;
+    height: 35px;
+    border-radius: 35px;
+    background-color: brown;
+}
+
+#down {
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-top: rgb(139, 109, 53) 5px solid;
+}
+
+.bread {
+    margin: auto;
+    width: 250px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: rgb(241, 189, 92);
+}
