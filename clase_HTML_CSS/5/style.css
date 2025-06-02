@@ -1,0 +1,25 @@
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.item1 {
+    background-color: lightblue;
+    padding: 20px;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column-reverse;
+    gap: 20px;
+}
+
+.item2 {
+    background-color: lightsalmon;
+    padding: 20px;
+}
