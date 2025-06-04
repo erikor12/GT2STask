@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#body {
+    background: url(https://static.vecteezy.com/system/resources/previews/004/640/503/large_2x/black-sky-with-stars-space-background-free-photo.jpg) top / cover fixed no-repeat;
+    color: rgb(255, 255, 255);
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+#imperio {
+    background-color: rgba(95, 12, 12, 0.4);
+    color: rgb(255, 255, 255);
+}
+
+#rebeldes {
+    background-color: rgba(12, 12, 95, 0.4);
+    color: rgb(255, 255, 255);
+}
+
+.title {
+    text-align: center;
+}
+
+.imp-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: rgb(255, 100, 100);
+}
+
+.reb-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: rgb(100, 100, 255);
+}
+
+.imp-lider {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.reb-lider {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.imp-tropa {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.reb-tropa {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.imp-apoyo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.reb-apoyo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
