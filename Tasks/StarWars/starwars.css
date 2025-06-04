@@ -12,7 +12,8 @@
 #header {
     display: flex;
     flex-direction: column;
-    align-items: center
+    align-items: center;
+    margin-top: 100px;
 }
 
 #imperio {
@@ -25,67 +26,65 @@
     color: rgb(255, 255, 255);
 }
 
+#separadorHI {
+    background: linear-gradient(rgba(0, 0, 0, 1), rgba(95, 12, 12, 0.4));
+    height: 200px;
+}
+
+#separadorIR {
+    background: linear-gradient(rgba(95, 12, 12, 0.4), rgba(12, 12, 95, 0.4));
+    height: 200px;
+}
+
 .title {
     text-align: center;
 }
 
 .imp-title {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    font-size: 30px;
+    display: grid;
+    place-items: center;
+    margin-bottom: 10px;
+    font-size: 40px;
     color: rgb(255, 100, 100);
 }
 
 .reb-title {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    font-size: 30px;
+    display: grid;
+    place-items: center;
+    margin-bottom: 10px;
+    font-size: 40px;
     color: rgb(100, 100, 255);
 }
 
 .imp-lider {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-
+    display: grid;
+    place-items: center;
 }
 
 .reb-lider {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    place-items: center;
 }
 
 .imp-tropa {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    place-items: center;
 }
 
 .reb-tropa {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .imp-apoyo {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 .reb-apoyo {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(3, 1fr);
 }
