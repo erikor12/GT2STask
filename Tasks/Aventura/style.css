@@ -1,14 +1,8 @@
-@font-face {
-    font-family: Undertale;
-    src: url('Assets/Fonts/COMICBD.TTF');
+.text {
+    text-align: center;
+    font-family: undertale;
 }
 
-#body {
-    background-color: black;
-    color: white;
-    text-align: center;
-}
-.title {
-    text-align: center;
-    font-family: Undertale;
-}
+.button {
+    margin-top: 50px;
+}   

@@ -1,0 +1,46 @@
+@font-face {
+    font-family: undertale;
+    src: url('Assets/Fonts/8bitOperatorPlus-Bold.woff');
+}
+
+@font-face {
+    font-family: buttons;
+    src: url('Assets/Fonts/mercy.otf.woff2');
+}
+
+@font-face {
+    font-family: sans;
+    src: url('Assets/Fonts/COMICBD.TTF');
+}
+
+@font-face {
+    font-family: paps;
+    src: url('Assets/Fonts/PAPYRUS.TTF');
+}
+
+@font-face {
+    font-family: dmono;
+    src: url('Assets/Fonts/Determination-Mono.otf');
+}
+
+@font-face {
+    font-family: dsans;
+    src: url('Assets/Fonts/Determination-Sans.woff');
+}
+
+#body {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.button{
+    font-family: buttons;
+    color: orange;
+    text-align: center;
+    font-size: 50px;
+    border: 5px;
+    border-color: orange;
+    border-style: solid;
+    padding: 20px;
+}
