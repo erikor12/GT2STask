@@ -15,7 +15,7 @@
     display: grid;
     align-items: center;
     justify-content: center;
-    justify-items: ;
+    justify-items: center;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     gap: 20px;
