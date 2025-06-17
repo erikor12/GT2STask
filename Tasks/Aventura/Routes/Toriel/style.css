@@ -10,8 +10,9 @@
 
 .lore {
     text-align: center;
-    font-family: Undertale;
+    font-family: dmono;
     margin: auto;
+    width: 60%;
     display: grid;
     align-items: center;
     justify-content: center;
