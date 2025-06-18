@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#body {
+    background: url(https://static.vecteezy.com/system/resources/previews/004/640/503/large_2x/black-sky-with-stars-space-background-free-photo.jpg) top / cover fixed no-repeat;
+    color: rgb(255, 255, 255);
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+#imperio {
+    background-color: rgba(95, 12, 12, 0.4);
+    color: rgb(255, 255, 255);
+}
+
+#rebeldes {
+    background-color: rgba(12, 12, 95, 0.4);
+    color: rgb(255, 255, 255);
+}
+
+#separadorHI {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(95, 12, 12, 0.4));
+    height: 200px;
+}
+
+#separadorIR {
+    background: linear-gradient(rgba(95, 12, 12, 0.4), rgba(12, 12, 95, 0.4));
+    height: 200px;
+}
+
+.title {
+    text-align: center;
+}
+
+.imp-title {
+    display: grid;
+    place-items: center;
+    margin-bottom: 10px;
+    font-size: 40px;
+    color: rgb(255, 100, 100);
+}
+
+.reb-title {
+    display: grid;
+    place-items: center;
+    margin-bottom: 10px;
+    font-size: 40px;
+    color: rgb(100, 100, 255);
+}
+
+.imp-lider {
+    display: grid;
+    place-items: center;
+}
+
+.reb-lider {
+    display: grid;
+    place-items: center;
+}
+
+.imp-tropa {
+    display: grid;
+    place-items: center;
+}
+
+.reb-tropa {
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.imp-apoyo {
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.reb-apoyo {
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(3, 1fr);
+}
