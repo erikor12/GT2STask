@@ -1,14 +1,29 @@
-@font-face {
-    font-family: Undertale;
-    src: url('Assets/Fonts/COMICBD.TTF');
-}
-
-#body {
-    background-color: black;
-    color: white;
-    text-align: center;
-}
 .title {
     text-align: center;
     font-family: Undertale;
+}
+
+.loreimg {
+    align-items: center;
+    width: 15%;
+}
+
+.lore {
+    text-align: center;
+    font-family: sans;
+    margin: auto;
+    width: 60%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.button {
+    margin-inline: 50px;
 }
