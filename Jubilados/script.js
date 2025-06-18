@@ -32,12 +32,8 @@ if (EdadOk && AportesOk) {
         (Genero == "Femenino" && Edad >= 60 && Aportes >= 30) ||
         (Genero == "Masculino" && Edad >= 65 && Aportes >= 30)
     ) {
-        checkJubilacion();
+        alert("Usted, " + Nombre + " " + Apellido + " puede jubilarse");
     } else {
         alert("Usted, " + Nombre + " " + Apellido + " no puede jubilarse");
     }
-}
-
-function checkJubilacion() {
-    alert("Usted, " + Nombre + " " + Apellido + " puede jubilarse");
 }
