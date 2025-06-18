@@ -5,14 +5,14 @@
 
 .loreimg {
     align-items: center;
-    width: 15%;
+    width: 30%;
 }
 
 .lore {
     text-align: center;
     font-family: dmono;
     margin: auto;
-    width: 55%;
+    width: 90%;
     display: grid;
     align-items: center;
     justify-content: center;
