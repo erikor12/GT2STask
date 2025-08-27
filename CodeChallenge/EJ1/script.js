@@ -1,7 +1,7 @@
 let calificacion = prompt("Ingrese la calificación del examen:");
 
-alert(evaluarRendimiento(calificacion));
-function evaluarRendimiento(calificacion) {
+alert(evaluarRendimiento());
+function evaluarRendimiento() {
 	if (calificacion < 0 || calificacion > 10) {
 		return "Calificación inválida";
 	} else if (calificacion <= 2) {
