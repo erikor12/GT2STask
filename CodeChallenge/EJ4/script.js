@@ -1,9 +1,18 @@
 let unidades = [1, 2, 3, 4];
 let gaseosas = ["cocacola", "sprite", "fanta", "seven-up"];
 
-// crear objeto gaseosasEnStock para saber si el hay stock de lo que quiere el cliente
+const gaseosasEnStock = dispenserGaseosas(gaseosas, unidades);
+console.log(gaseosasEnStock);
 
 
 
-function dispenserGaseosas(){}
+function dispenserGaseosas(gaseosas, unidades) {
+    const gaseosasEnStock = {};
+
+    arregloGaseosas.forEach((gaseosa, index) => {
+        gaseosasEnStock[gaseosa] = arregloCantidad[index];
+    });
+
+    return gaseosasEnStock;
+}
 
