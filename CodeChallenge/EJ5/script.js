@@ -1,5 +1,6 @@
 let personas = [{ nombre: "Juan", edad: 19 }, { nombre: "Mario", edad: 22 }];
 
+console.log(addBirthYear(personas));
 function addBirthYear(personas) {
     const currentYear = new Date().getFullYear();
 
