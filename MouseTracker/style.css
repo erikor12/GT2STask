@@ -1,12 +1,17 @@
-.rat{
+.rat {
     position: fixed;
     z-index: 1;
-}
-#body {
-    height: 100vh;
+    transition: top 2s, left 2s;
 }
 
-.back{
+#body {
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: none;
+}
+
+.back {
     position: fixed;
     z-index: -1;
 }
