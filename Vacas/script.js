@@ -1,9 +1,7 @@
-// Variables globales
 let numSquares = 6;
 let colors = [];
 let pickedColor;
 
-// Elementos del DOM
 const squares = document.querySelectorAll(".square");
 const colorDisplay = document.getElementById("colorDisplay");
 const messageDisplay = document.getElementById("message");
@@ -11,7 +9,6 @@ const h1 = document.querySelector("h1");
 const resetButton = document.getElementById("reset");
 const modeButtons = document.querySelectorAll(".mode");
 
-// Inicializar el juego
 init();
 
 function init() {
@@ -20,7 +17,6 @@ function init() {
     reset();
 }
 
-// Configurar botones de modo (Easy / Hard)
 function setupModeButtons() {
     modeButtons.forEach(button => {
         button.addEventListener("click", function () {
@@ -32,7 +28,6 @@ function setupModeButtons() {
     });
 }
 
-// Configurar comportamiento de los cuadrados
 function setupSquares() {
     squares.forEach(square => {
         square.addEventListener("click", function () {
@@ -50,14 +45,13 @@ function setupSquares() {
     });
 }
 
-// Reiniciar el juego
 function reset() {
     colors = generateRandomColors(numSquares);
     pickedColor = pickColor();
     colorDisplay.textContent = pickedColor;
     messageDisplay.textContent = "";
     resetButton.textContent = "Nuevos Colores";
-    h1.style.backgroundColor = "#005187";
+    h1.style.backgroundColor = "#0000ff";
 
     squares.forEach((square, i) => {
         if (colors[i]) {
@@ -70,7 +64,6 @@ function reset() {
     });
 }
 
-// Cambiar todos los cuadrados al color correcto
 function changeColors(color) {
     squares.forEach(square => {
         square.style.backgroundColor = color;
@@ -78,13 +71,11 @@ function changeColors(color) {
     });
 }
 
-// Elegir un color aleatorio del arreglo
 function pickColor() {
     const random = Math.floor(Math.random() * colors.length);
     return colors[random];
 }
 
-// Generar un arreglo de colores aleatorios
 function generateRandomColors(num) {
     const arr = [];
     for (let i = 0; i < num; i++) {
@@ -93,7 +84,6 @@ function generateRandomColors(num) {
     return arr;
 }
 
-// Generar un color RGB aleatorio
 function randomColor() {
     const r = Math.floor(Math.random() * 256);
     const g = Math.floor(Math.random() * 256);
@@ -101,5 +91,4 @@ function randomColor() {
     return `rgb(${r}, ${g}, ${b})`;
 }
 
-// Evento para el botón de reinicio
 resetButton.addEventListener("click", reset);
