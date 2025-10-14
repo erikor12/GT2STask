@@ -1,5 +1,5 @@
 import './App.css'
-import Publicacion from './components/publicacion'
+import Publicacion from './components/Publicacion'
 
 function App() {
 
