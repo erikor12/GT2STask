@@ -2,7 +2,6 @@ import { useState } from 'react'
 import CharacterList from "./components/CharacterList";
 import CharacterDetail from "./components/CharacterDetail";
 import { Container, Typography, Dialog } from "@mui/material";
-import './App.css'
 
 function App() {
     const [selectedCharacter, setSelectedCharacter] = useState(null)
