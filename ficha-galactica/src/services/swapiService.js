@@ -16,3 +16,4 @@ export const getPlanetName = async (planetUrl) => {
     const data = await res.json();
     return data.name;
 };
+
